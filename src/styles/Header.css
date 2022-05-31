@@ -1,0 +1,45 @@
+.header{
+    padding: 1rem 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerSections{
+    list-style-type: none;
+}
+.headerSections li{
+    font-family: 'Mulish', sans-serif;
+    padding: 0.5rem 1rem;
+    letter-spacing: -0.0777778px;
+    font-weight: 500;
+}
+
+.header>p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3.06977px;
+    text-transform: uppercase;
+}
+@media (max-width:600px){
+    .header{
+        padding: 3rem;
+    }
+    .header>p{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .headerSections li{
+        padding: 1rem;
+        font-weight: 600;   
+        letter-spacing: 2px;
+    }
+}

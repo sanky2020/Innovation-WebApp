@@ -1,0 +1,54 @@
+footer{
+    background-color: #112213;
+    color: white;
+    padding: 2rem 0;
+}
+footer button{
+    display: none;
+}
+footer li:last-of-type{
+    padding-right: 0;
+}
+.termsAndConditions{
+    width: 80%;
+    margin: 1rem auto;
+}
+.termsAndConditions, .tnc{
+    display: flex;
+    justify-content: space-between;
+}
+.tnc p{
+    margin-left: 3rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+.social-icons{
+    display:flex;
+}
+.socialIconsWrapper{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    margin: 1rem;
+}
+.social-icons>div:first-child{
+    margin-left: 0;
+}
+.socialIconsWrapper svg{
+    font-size: 2rem;
+}
+
+@media (max-width:600px){
+    .termsAndConditions{
+        flex-direction: column;
+        align-items: center;
+    }
+    .connectUsOn{
+        text-align: center;
+    }
+    .tnc p{
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,18 @@
+.btn{
+    background-color: #34733E;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    border: none;
+    padding: 0.8rem 1.4rem;
+    margin-left: 1rem;
+    
+}
+.btn svg{
+    padding-top: 5px;
+}
+
+@media (max-width:600px){
+    .btn{
+        margin: 1rem;
+    }
+}

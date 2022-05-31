@@ -1,0 +1,71 @@
+.challengingLimits{
+    width: 50%;
+}
+
+.challengingLimits p:first-child, .revolution p:first-child{
+    color: #34733E;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1rem;
+}
+.challengingLimits>h2, .revolution>h2{
+    letter-spacing: -0.0777778px;
+    font-weight: 700;
+    font-size: 3.8rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 4.5rem;
+    margin-bottom: 1.5rem;
+
+}
+.challengingLimits p:last-of-type{
+    letter-spacing: -0.0777778px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-bottom: 3rem;
+
+}
+.challengingLimits button, .revolution button{
+    margin: 0;
+}
+
+/* Section two styling */
+.revolution{
+    width: 80%;
+    margin: 7.5rem auto 4rem auto;
+}
+
+@media (max-width:600px){
+    .challengingLimits{
+        width: 100%;
+        text-align: center;
+    }
+    .challengingLimits p:first-child, .revolution p:first-child{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 1rem;
+    }
+    .challengingLimits>h2 {
+        font-size: 2.5rem;
+        margin: 1.5rem;
+        line-height: 3.5rem;
+    }
+    .challengingLimits p:last-of-type{
+        font-size: 1.3rem;
+        line-height: 2rem;
+        margin: 3rem;
+    }
+    .revolution{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto 3rem auto ;
+    }
+    .revolution>h2{
+        font-size: 2rem;
+        margin: 1.5rem;
+        line-height: 3rem;
+
+    }
+
+}
