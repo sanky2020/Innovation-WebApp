@@ -16,8 +16,11 @@
     padding: 0.5rem 1rem;
     letter-spacing: -0.0777778px;
     font-weight: 500;
+    cursor: pointer;
 }
-
+.headerSections li:hover{
+    color: #439450;
+}
 .header>p{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
